@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+*{
+    font-family: 'ABeeZee', sans-serif;
+}
+body{
+  background-image: url("https://wallpaperscraft.com/image/black_light_dark_figures_73356_1920x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+  font-family: arial;
+}
+
+#header{
+  height: 70px;
+  background: #000;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#logo{
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin-top: 13px;
+  margin-left: 70px;
+}
+
+#main-nav{
+  float: right;
+  margin-right: 70px;
+}
+
+#main-nav ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-nav li {
+  display: inline;
+}
+
+#main-nav li a{
+  padding-top: 25px;
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  background: #D2474D;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-nav li a:hover{
+  background: #a80640;
+}
+
+#main-nav li.active a{
+  background: #a80640;
+}
+
+.container{
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+h2{
+  font-size: 35px;
+  margin-top: 0px;
+}
+
+a.button{
+  display: inline-block;
+  background: #D2474D;
+  width: 200px;
+  padding: 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+a.button:hover{
+  background: #a80640;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+tr:nth-child(even) {
+  background-color: #858383;
+}
+
+.media .playerBox{
+  margin: 0px auto;
+  width: 630px;
+  background: rgb(255, 255, 255);
+  padding: 3px;
+  float: right;
+}
+.media .playerBox .title {
+  margin: 0px;
+  color: #000000;
+  float: left;
+}
+.media .playerBox .videoPlayer video{
+  width: 100%;
+  max-height: 500px;
+}
+.media .playerBox .playlist .list table{
+  width: 100%;
+}
+.playerBox .audioPlayer audio{
+  width: 100%;
+}
+
+.media{
+  width: 1000px;
+  margin: 0 auto;
+}
+.albums{
+  float: left;
+  width: 240px;
+}
+
+.albums ul li img{
+  height: 240px;
+  width: 240px;
+  cursor: pointer;
+  margin: 5px;
+}
+.albums ul{
+  list-style: none;
+}
+.albums{
+  float: left;
+  width: 240px;
+}
+.clearfix{
+  clear: both;
+}
+
+/* hide download btns */
+video::-internal-media-controls-download-button {
+  display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+  overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+  width: calc(100% + 30px); /* Adjust as needed */
+}
+audio::-internal-media-controls-download-button {
+  display:none;
+}
+
+audio::-webkit-media-controls-enclosure {
+  overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+  width: calc(100% + 30px); /* Adjust as needed */
+}
