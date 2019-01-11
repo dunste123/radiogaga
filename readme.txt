@@ -1,0 +1,1 @@
+I don't own any of the songs, if you are the artist and want it removed please contact me
